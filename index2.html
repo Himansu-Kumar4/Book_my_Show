@@ -8,7 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tirhuta&display=swap" rel="stylesheet">
     <title>Bookmyshow</title>
 </head>
-<body id="fullbody">
+<body>
     <img src="BMS_logo.png" width="100" alt="logo">
     <input type="text" id="searchinput" placeholder="Enter Query">
     <button id="searchbtn">Search Movies</button>
@@ -23,48 +23,61 @@
 <a href="Sign_in.html"><button value="sign in"><b>Sign in here</b></button></a>
 <a href="Sign_up.html"><button value="Sign up"><b>Sign up here</b></button></a>
 <br><br>
-        <div>
-        <a href="https://in.bookmyshow.com/movies/the-super-mario-galaxy-movie/ET00465655"><img src="SMG.avif" alt="Super Mario"></a>
+<div id="fullbody">
+        <div class="slider">
+        <div class="slides">
+          <!-- <a href="https://in.bookmyshow.com/movies/the-super-mario-galaxy-movie/ET00465655"><img src="SMG.avif" alt="Super Mario" width="100%"></a> -->
+           <img src="Full_Screen_Pictures/wallpaperflare.com_wallpaper.jpg">
+           <img src="Full_Screen_Pictures/wallpaperflare-cropped.jpg">
+        <img src="7 Virtues/7_Virtues.jpg">
+        <img src="7 Virtues/7Virtue_vs.webp">
+        </div>
+        <button class="prev btn">&larr;</button>
+        <button class="next btn">&rarr;</button>
+    </div>
+
+        <h1>Recommended Movies</h1>
+        <div class="container_holder">
+        <div class="the">
+        <img src="7 Virtues/Charity.webp" width="180">
+        <h4>The Charity</h4>
+        </div>
+        <div class="the">
+        <img src="7 Virtues/Patience.jpg" width="200">
+        <h4>The Patience</h4>
+        </div>
+        <div class="the">
+        <img src="7 Virtues/Diligence.webp" width="200">
+        <h4>The Diligence</h4>
+        </div>
+        <div class="the">
+        <img src="7 Virtues/Kindness.webp" width="187">
+        <h4>The Kindness</h4>
         </div>
 
-        <div >
-        <h1>Recommended Movies</h1>
-        <div id="C00">
-        <img src="7 Virtues/Charity.webp" width="180">
-        </div>
-        <div id="C01">
-        <img src="7 Virtues/Patience.jpg" width="200">
-        </div>
-        <div id="C02">
-        <img src="7 Virtues/Diligence.webp" width="200">
-        </div>
-        <div id="C03">
-        <img src="7 Virtues/Kindness.webp" width="187">
-        </div>
-        <div id="C04">
+        <div class="the">
         <img src="7 Virtues/Chastity.webp" width="174">
-        <p>The chastity</p>
+        <h4>The Chastity</h4>
         </div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
         <h2><b><i>The tarot card holders has all aligned to combat the evil that plague this world</i></b></h2>
-        </div>
         <br>
         <br>
         <div>
            <a href="https://in.bookmyshow.com/explore/c/stream"> <img src="stream-leadin-web-collection-202210241242.avif"></a>
         </div>
 
-        <div>
         <h1>Best Seller</h1>
-        <div id="C100">
+        <div class="container_holder">
+        <div class="the">
         <img src="7 Virtues/Temperance.webp" width="350">
-        <b>Humility</b>
-        <i>The path of Humility</i>
+        <h3><b>Humility</b>
+        <i>The path of Humility</i></h3>
         </div>
-        <div id="C101">
+        <div class="the">
         <img src="7 Virtues/Humility.webp" width="329">
-         <b>Temperance</b>
-        <i>The path of Temperance  </i>
+         <h3><b>Temperance</b>
+        <i>The path of Temperance</i></h3>
         </div>
         </div>
         <br>
@@ -76,6 +89,7 @@
         </div>
         <br>
         <br>
+        </div>
 
         <footer>
   <p>@ Bookmyshow</p>

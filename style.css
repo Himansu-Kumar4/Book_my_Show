@@ -1,0 +1,98 @@
+
+/* .material-symbols-outlined {
+    align-items: flex-end;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+body{
+    background-color:white;
+    background-image: url("vergil_cooks.jpeg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+button:hover {
+  color: blue;
+  background-color: bisque;
+}
+
+a:visited{
+    color: brown;
+}
+
+a:active{
+    color: aquamarine;
+}
+
+div{
+    display: flex;
+    align-items: end;
+}
+
+justify-content
+align-items
+flex*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(249, 249, 248);
+ }
+
+ .slider{
+    width:80%;
+    height: 400px;
+    margin: 40px auto;
+    overflow: hidden;
+    position:relative;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(212, 179, 179);
+ }
+ .slides{
+    display: flex;
+    height: 100%;
+    transition: transform 0.5s ease;
+ }
+ .slides img{
+    width:100%;
+    flex-shrink: 0;
+    object-fit: cover;
+ }
+
+ .prev{
+    left: 15px;
+ }
+ .next{
+    right: 15px;
+ }
+
+ .btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgb(215, 215, 209);
+ }
+
+ .container_holder{
+    display: flex;
+ }
+
+ .the{
+    margin: 20px;
+ }

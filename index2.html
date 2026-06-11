@@ -3,15 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.2">
+    <link rel="stylesheet" href="style.css"></link>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S+Guides:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tirhuta&display=swap" rel="stylesheet">
     <title>Bookmyshow</title>
 </head>
-<body>
+<body id="fullbody">
     <img src="BMS_logo.png" width="100" alt="logo">
-    <c><input type="search"></c>
+    <input type="text" id="searchinput" placeholder="Enter Query">
+    <button id="searchbtn">Search Movies</button>
     <select>
         <option>city</option>
         <option value="Lucknow">Lucknow</option>
-        <option value="Kanpur">Kanpur</option>
+        <option value="Kanpur">Kanpur</option></select>
         </select>
         <br>
         <nav><a href="https://in.bookmyshow.com/explore/movies-lucknow?cat=MT"> Movies</a> | Music | Live Events | Best Seller | Premiere | Plays | Activities</nav>
@@ -23,13 +27,26 @@
         <a href="https://in.bookmyshow.com/movies/the-super-mario-galaxy-movie/ET00465655"><img src="SMG.avif" alt="Super Mario"></a>
         </div>
 
-        <div>
+        <div >
         <h1>Recommended Movies</h1>
+        <div id="C00">
         <img src="7 Virtues/Charity.webp" width="180">
+        </div>
+        <div id="C01">
         <img src="7 Virtues/Patience.jpg" width="200">
+        </div>
+        <div id="C02">
         <img src="7 Virtues/Diligence.webp" width="200">
+        </div>
+        <div id="C03">
         <img src="7 Virtues/Kindness.webp" width="187">
-        <img src="7 Virtues/Chastity.webp" width="174"><h2><b><i>The tarot card holders has all aligned to combat the evil that plague this world</i></b></h2>
+        </div>
+        <div id="C04">
+        <img src="7 Virtues/Chastity.webp" width="174">
+        <p>The chastity</p>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <h2><b><i>The tarot card holders has all aligned to combat the evil that plague this world</i></b></h2>
         </div>
         <br>
         <br>
@@ -39,14 +56,16 @@
 
         <div>
         <h1>Best Seller</h1>
+        <div id="C100">
         <img src="7 Virtues/Temperance.webp" width="350">
-        <img src="7 Virtues/Humility.webp" width="329">
-        <pre>
-        <b>Temperance</b>
-        <i>The path of Temperance  </i>
         <b>Humility</b>
         <i>The path of Humility</i>
-        </pre>
+        </div>
+        <div id="C101">
+        <img src="7 Virtues/Humility.webp" width="329">
+         <b>Temperance</b>
+        <i>The path of Temperance  </i>
+        </div>
         </div>
         <br>
         <br>
@@ -70,6 +89,6 @@
     Contact us at <a href="BookmyshowSupport@gmail.com">Bookmyshow@support.com</a>
   </address>
 </footer>
-
+<script src="BMS.js"></script>
 </body>
 </html>
